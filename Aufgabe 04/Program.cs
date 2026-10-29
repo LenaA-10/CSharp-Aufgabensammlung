@@ -2,6 +2,5 @@
 int zahl = 0;
 if (zahl >= 1 || zahl <= 12)
 {
-gaga
 }
 
