@@ -1,7 +1,7 @@
 ﻿Console.WriteLine("Kleines 1 x 1");
 
 int zeile = 1;
-while (zeile <= 10)
+while (zeile <= 10) 
 {
     int spalte = 1;
     while (spalte <= 10) 
