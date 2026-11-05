@@ -7,14 +7,14 @@ class Program
     {
 
         Console.WriteLine("Gib ein Wort oder einen Satz ein:");
-        string Eingabe = Console.ReadLine();
+        string eingabe = (Console.ReadLine());
         string vowels = "aeiouAEIOUäÄöÖüÜ";
 
 
-        if (vowels.Any(Eingabe.Contains))
+        if (vowels.Any(eingabe.Contains))
         {
-            int count = Eingabe.Count(c => vowels.Contains(c));
-            Console.WriteLine($"Die Anzahl der Vokale in '{Eingabe}' beträgt: {count}");
+            int count = eingabe.Count(c => vowels.Contains(c));
+            Console.WriteLine($"Die Anzahl der Vokale in '{eingabe}' beträgt: {count}");
         }
         else
         {
